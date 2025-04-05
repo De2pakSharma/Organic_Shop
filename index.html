@@ -1,380 +1,617 @@
  <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Grocery.in</title>
-    <link href="style.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-</head>
-<body>
+    <link href="style.css" rel="stylesheet" />
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
     <div class="hader">
-     <div class="container">
+      <div class="container">
         <div class="row">
-            <div class="col-12">
-                <div class="upperhadder">
-                        <p>Welcome to our Organic store EkoMart!</p>
-                    <ul>
-                        <li><a href="#" style="text-decoration: none;"><p>Track Order</p> </a></li>
-                        <li><a href="#" style="text-decoration: none;"><p>About Us</p></a></li>
-                        <li><a href="#" style="text-decoration: none;"><p>Contact Us</p></a></li>
-                        <li><a href="#" style="text-decoration: none;"><p>FAQ</p></a></li>
-                    </ul>
-                </div>
+          <div class="col-12">
+            <div class="upperhadder">
+              <p>Welcome to our Organic store EkoMart!</p>
+              <ul>
+                <li>
+                  <a href="#" style="text-decoration: none"
+                    ><p>Track Order</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" style="text-decoration: none"><p>About Us</p></a>
+                </li>
+                <li>
+                  <a href="#" style="text-decoration: none"
+                    ><p>Contact Us</p></a
+                  >
+                </li>
+                <li>
+                  <a href="#" style="text-decoration: none"><p>FAQ</p></a>
+                </li>
+              </ul>
             </div>
-               
-      <nav class="navbar navbar-expand-lg" style="margin-top: -2%;">
-        <div class="container-fluid d-flex justify-content-between align-items-center">
-          
-          <!-- Left: Logo -->
-          <a href="#" class="navbar-brand">
-            <img src="images/logo-01.svg" class="img-fluid" alt="Logo" height="40">
-          </a>
-      
-          <!-- Right: Toggler Button (Visible on small screens) -->
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" 
-                  aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-      
-          <!-- Navbar Content (Collapsible) -->
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            
-            <!-- Center: Search Box -->
-            <div class="d-flex flex-grow-1 justify-content-center mt-2 mt-lg-0">
-              <div class="position-relative w-50">
-                <input class="form-control pe-5" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success position-absolute end-0 top-0 h-100" 
-                        type="submit" style="background-color: #629D23; color: white;">Search</button>
+          </div>
+
+          <nav class="navbar navbar-expand-lg" style="margin-top: -2%">
+            <div
+              class="container-fluid d-flex justify-content-between align-items-center"
+            >
+              <!-- Left: Logo -->
+              <a href="#" class="navbar-brand">
+                <img
+                  src="images/logo-01.svg"
+                  class="img-fluid"
+                  alt="Logo"
+                  height="40"
+                />
+              </a>
+
+              <!-- Right: Toggler Button (Visible on small screens) -->
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <!-- Navbar Content (Collapsible) -->
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <!-- Center: Search Box -->
+                <div
+                  class="d-flex flex-grow-1 justify-content-center mt-2 mt-lg-0"
+                >
+                  <div class="position-relative w-50">
+                    <input
+                      class="form-control pe-5"
+                      type="search"
+                      placeholder="Search"
+                      aria-label="Search"
+                    />
+                    <button
+                      class="btn btn-outline-success position-absolute end-0 top-0 h-100"
+                      type="submit"
+                      style="background-color: #629d23; color: white"
+                    >
+                      Search
+                    </button>
+                  </div>
+                </div>
+
+                <!-- Right: Navigation Buttons -->
+                <div class="d-flex gap-2 ms-auto mt-3 mt-lg-0">
+                  <button type="button" class="btn btn-light">
+                    <i class="fa-solid fa-user"></i> Account
+                  </button>
+                  <button type="button" class="btn btn-light">
+                    <i class="fa-solid fa-heart"></i> Wishlist
+                  </button>
+                  <button type="button" class="btn btn-light">
+                    <i class="fa-solid fa-cart-shopping"></i> My Cart
+                  </button>
+                </div>
               </div>
             </div>
-      
-            <!-- Right: Navigation Buttons -->
-            <div class="d-flex gap-2 ms-auto mt-3 mt-lg-0">
-              <button type="button" class="btn btn-light"><i class="fa-solid fa-user"></i> Account</button>
-              <button type="button" class="btn btn-light"><i class="fa-solid fa-heart"></i> Wishlist</button>
-              <button type="button" class="btn btn-light"><i class="fa-solid fa-cart-shopping"></i> My Cart</button>
-            </div>
-          </div>
+          </nav>
         </div>
-      </nav>
-      
-      
-        </div>
-     </div>
+      </div>
     </div>
-    <section style="background-color: #629D23;">
-    <div class="container">
+    <section style="background-color: #629d23">
+      <div class="container">
         <div class="row">
-    <div class="buttomhaddr">
-        <div class="lefthader">
-            <ul>
-                <li><a href="#" style="text-decoration: none; color: white;">Home</a></li>
-                <li><a href="#" style="text-decoration: none; color: white;  ">About</a></li>
-                <li><a href="#"style="text-decoration: none; color: white;">Shop</a></li>
-                <li><a href="#"style="text-decoration: none; color: white;">Vendors</a></li>
-                <li><a href="#"style="text-decoration: none; color: white;">Pages</a></li>
-                <li><a href="#"style="text-decoration: none; color: white;">Blog</a></li>
-                <li><a href="#"style="text-decoration: none; color: white;">Contact</a></li>
-            </ul>
-        </div>
-        <div class="righthadder">
-            <p style="color: white;">Delivery: 258 FKD Street, Berlin</p>
-        </div>
-    </div>
-        </div>
-    </div>
-</section>
-
-  <div class="container" style="margin-top: 5%; margin-bottom: 5%;">
-    <div class="row">
-        <div class="banner">
-            <img src="images/banner.jpg" alt="Banner Image" class="banner-img">
-            <div class="banner-text">
-              <p style="color: #629D23;">Get up to 30% off on your first $150 purchase</p>
-              <h1 style="color: black;"> Feed Your Family at the Best Price</h1>
-              <p style="color: gray;">We have prepared special discounts for you on grocery products. Don't
-                miss these opportunities...</p>
-                <button type="button" class="btn" style="background-color: #629D23; color: white;">Shop Now <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i></button>
+          <div class="buttomhaddr">
+            <div class="lefthader">
+              <ul>
+                <li>
+                  <a href="#" style="text-decoration: none; color: white"
+                    >Home</a
+                  >
+                </li>
+                <li>
+                  <a href="#" style="text-decoration: none; color: white"
+                    >About</a
+                  >
+                </li>
+                <li>
+                  <a href="#" style="text-decoration: none; color: white"
+                    >Shop</a
+                  >
+                </li>
+                <li>
+                  <a href="#" style="text-decoration: none; color: white"
+                    >Vendors</a
+                  >
+                </li>
+                <li>
+                  <a href="#" style="text-decoration: none; color: white"
+                    >Pages</a
+                  >
+                </li>
+                <li>
+                  <a href="#" style="text-decoration: none; color: white"
+                    >Blog</a
+                  >
+                </li>
+                <li>
+                  <a href="#" style="text-decoration: none; color: white"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="righthadder">
+              <p style="color: white">Delivery: 258 FKD Street, Berlin</p>
             </div>
           </div>
-          
-    </div>
-  </div>
+        </div>
+      </div>
+    </section>
 
-  <div class="container d-flex justify-content-center align-items-center">
-    <div class="row">
+    <div class="container" style="margin-top: 5%; margin-bottom: 5%">
+      <div class="row">
+        <div class="banner">
+          <img src="images/banner.jpg" alt="Banner Image" class="banner-img" />
+          <div class="banner-text">
+            <p style="color: #629d23">
+              Get up to 30% off on your first $150 purchase
+            </p>
+            <h1 style="color: black">Feed Your Family at the Best Price</h1>
+            <p style="color: gray">
+              We have prepared special discounts for you on grocery products.
+              Don't miss these opportunities...
+            </p>
+            <button
+              type="button"
+              class="btn"
+              style="background-color: #629d23; color: white"
+            >
+              Shop Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-flex justify-content-center align-items-center">
+      <div class="row">
         <div class="col-lg-2 col-md-3 col-sm-4">
-                <div class="category-card">
-                    <img src="images/01.png" alt="Organic Vegetable">
-                    <h5>Organic Vegetable</h5>
-                    <p>299 ITEMS</p>
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-4">
-                <div class="category-card">
-                    <img src="images/03.png" alt="Organic Vegetable">
-                    <h5>Organic Vegetable</h5>
-                    <p>299 ITEMS</p>
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-4">
-                <div class="category-card">
-                    <img src="images/02.png" alt="Organic Vegetable">
-                    <h5>Organic Vegetable</h5>
-                    <p>299 ITEMS</p>
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-4">
-                <div class="category-card">
-                    <img src="images/04.png" alt="Organic Vegetable">
-                    <h5>Organic Vegetable</h5>
-                    <p>299 ITEMS</p>
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-4">
-                <div class="category-card">
-                    <img src="images/05.png" alt="Organic Vegetable">
-                    <h5>Organic Vegetable</h5>
-                    <p>299 ITEMS</p>
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-4">
-                <div class="category-card">
-                    <img src="images/06.png" alt="Organic Vegetable">
-                    <h5>Organic Vegetable</h5>
-                    <p>299 ITEMS</p>
-                </div>
-            </div>
-            
+          <div class="category-card">
+            <img src="images/01.png" alt="Organic Vegetable" />
+            <h5>Organic Vegetable</h5>
+            <p>299 ITEMS</p>
+            <button
+              type="button"
+              class="btn"
+              style="background-color: #629d23; color: white"
+            >
+              Shop Now
+            </button>
+          </div>
         </div>
+        <div class="col-lg-2 col-md-3 col-sm-4">
+          <div class="category-card">
+            <img src="images/03.png" alt="Organic Vegetable" />
+            <h5>Organic Vegetable</h5>
+            <p>299 ITEMS</p>
+            <button
+              type="button"
+              class="btn"
+              style="background-color: #629d23; color: white"
+            >
+              Shop Now
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4">
+          <div class="category-card">
+            <img src="images/02.png" alt="Organic Vegetable" />
+            <h5>Organic Vegetable</h5>
+            <p>299 ITEMS</p>
+            <button
+              type="button"
+              class="btn"
+              style="background-color: #629d23; color: white"
+            >
+              Shop Now
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4">
+          <div class="category-card">
+            <img src="images/04.png" alt="Organic Vegetable" />
+            <h5>Organic Vegetable</h5>
+            <p>299 ITEMS</p>
+            <button
+              type="button"
+              class="btn"
+              style="background-color: #629d23; color: white"
+            >
+              Shop Now
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4">
+          <div class="category-card">
+            <img src="images/05.png" alt="Organic Vegetable" />
+            <h5>Organic Vegetable</h5>
+            <p>299 ITEMS</p>
+            <button
+              type="button"
+              class="btn"
+              style="background-color: #629d23; color: white"
+            >
+              Shop Now
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4">
+          <div class="category-card">
+            <img src="images/06.png" alt="Organic Vegetable" />
+            <h5>Organic Vegetable</h5>
+            <p>299 ITEMS</p>
+            <button
+              type="button"
+              class="btn"
+              style="background-color: #629d23; color: white"
+            >
+              Shop Now
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
- 
 
     <div class="container my-5">
-        <div class="row g-4">
-            <div class="col-md-6">
-                <div class="product-card d-flex">
-                    <div class="product-text">
-                        <h4>Get Everyday Fresh <br><strong>Organic</strong> Vegetable</h4>
-                        <p>Only <span>$15.00</span></p>
-                        <button type="button" class="btn" style="background-color: #629D23; color: white;">Shop Now <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i></button>
-                    </div>
-                    <div class="product-image">
-                        <img src="images/onion.png" alt="Onions" class="img-fluid">
-                    </div>
-                </div>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="product-card d-flex">
+            <div class="product-text">
+              <h4>
+                Get Everyday Fresh <br /><strong>Organic</strong> Vegetable
+              </h4>
+              <p>Only <span>$15.00</span></p>
+              <button
+                type="button"
+                class="btn"
+                style="background-color: #629d23; color: white"
+              >
+                Shop Now
+              </button>
             </div>
-            <div class="col-md-6">
-                <div class="product-card d-flex">
-                    <div class="product-text">
-                        <h4>Get Everyday Fresh <br><strong>Organic</strong> Vegetable</h4>
-                        <p>Only <span>$15.00</span></p>
-                        <button type="button" class="btn" style="background-color: #629D23; color: white;">Shop Now <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i></button>
-                    </div>
-                    <div class="product-image">
-                        <img src="images/salt.png" alt="Organic Products" class="img-fluid">
-                    </div>
-                </div>
+            <div class="product-image">
+              <img src="images/onion.png" alt="Onions" class="img-fluid" />
             </div>
+          </div>
         </div>
+        <div class="col-md-6">
+          <div class="product-card d-flex">
+            <div class="product-text">
+              <h4>
+                Get Everyday Fresh <br /><strong>Organic</strong> Vegetable
+              </h4>
+              <p>Only <span>$15.00</span></p>
+              <button
+                type="button"
+                class="btn"
+                style="background-color: #629d23; color: white"
+              >
+                Shop Now
+              </button>
+            </div>
+            <div class="product-image">
+              <img
+                src="images/salt.png"
+                alt="Organic Products"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="container my-5">
-        <h4 class="section-title"><span></span> Weekly Best Seller Grocery</h4>
-        <div class="row g-3 mt-3">
-            <div class="col-6 col-sm-4 col-md-2">
-                <div class="grocery-product">
-                    <img src="images/011.png" alt="Product 1" class="img-fluid">
-                    <p>Super Fresh Meat</p>
-                    <span>$36.00</span>
-                </div>
-            </div>
-            <div class="col-6 col-sm-4 col-md-2">
-                <div class="grocery-product">
-                    <img src="images/022.png" alt="Product 2" class="img-fluid">
-                    <p>Super Fresh Meat</p>
-                    <span>$36.00</span>
-                </div>
-            </div>
-            <div class="col-6 col-sm-4 col-md-2">
-                <div class="grocery-product">
-                    <img src="images/033.png" alt="Product 3" class="img-fluid">
-                    <p>Super Fresh Meat</p>
-                    <span>$36.00</span>
-                </div>
-            </div>
-            <div class="col-6 col-sm-4 col-md-2">
-                <div class="grocery-product">
-                    <img src="images/044.png" alt="Product 4" class="img-fluid">
-                    <p>Super Fresh Meat</p>
-                    <span>$36.00</span>
-                </div>
-            </div>
-            <div class="col-6 col-sm-4 col-md-2">
-                <div class="grocery-product">
-                    <img src="images/055.png" alt="Product 5" class="img-fluid">
-                    <p>Super Fresh Meat</p>
-                    <span>$36.00</span>
-                </div>
-            </div>
-            <div class="col-6 col-sm-4 col-md-2">
-                <div class="grocery-product">
-                    <img src="images/066.png" alt="Product 6" class="img-fluid">
-                    <p>Super Fresh Meat</p>
-                    <span>$36.00</span>
-                </div>
-            </div>
+      <h4 class="section-title"><span></span> Weekly Best Seller Grocery</h4>
+      <div class="row g-3 mt-3">
+        <div class="col-6 col-sm-4 col-md-2">
+          <div class="grocery-product">
+            <img src="images/011.png" alt="Product 1" class="img-fluid" />
+            <p>Super Fresh Meat</p>
+            <span>$36.00</span><br>
+            <button
+              type="button"
+              class="btn"
+              style="background-color: #629d23; color: white"
+            >
+              Shop Now
+            </button>
+          </div>
         </div>
+        <div class="col-6 col-sm-4 col-md-2">
+          <div class="grocery-product">
+            <img src="images/022.png" alt="Product 2" class="img-fluid" />
+            <p>Super Fresh Meat</p>
+            <span>$36.00</span><br>
+            <button
+              type="button"
+              class="btn"
+              style="background-color: #629d23; color: white"
+            >
+              Shop Now
+            </button>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-2">
+          <div class="grocery-product">
+            <img src="images/033.png" alt="Product 3" class="img-fluid" />
+            <p>Super Fresh Meat</p>
+            <span>$36.00</span><br>
+            <button
+              type="button"
+              class="btn"
+              style="background-color: #629d23; color: white"
+            >
+              Shop Now
+            </button>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-2">
+          <div class="grocery-product">
+            <img src="images/044.png" alt="Product 4" class="img-fluid" />
+            <p>Super Fresh Meat</p>
+            <span>$36.00</span><br>
+            <button
+              type="button"
+              class="btn"
+              style="background-color: #629d23; color: white"
+            >
+              Shop Now
+            </button>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-2">
+          <div class="grocery-product">
+            <img src="images/055.png" alt="Product 5" class="img-fluid" />
+            <p>Super Fresh Meat</p>
+            <span>$36.00</span><br>
+            <button
+              type="button"
+              class="btn"
+              style="background-color: #629d23; color: white"
+            >
+              Shop Now
+            </button>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-2">
+          <div class="grocery-product">
+            <img src="images/066.png" alt="Product 6" class="img-fluid" />
+            <p>Super Fresh Meat</p>
+            <span>$36.00</span><br>
+            <button
+              type="button"
+              class="btn"
+              style="background-color: #629d23; color: white"
+            >
+              Shop Now
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div class="container-fluid features-section" style="margin-top: 5%;">
-        <div class="container">
-            <div class="row text-white text-center g-4">
-                <div class=" col-lg-3 col-md-6 col-sm-12">
-                    <div class="feature-box">
-                        <div class="feature-icon">
-                            <i class="fa-solid fa-money-bill-transfer" style="color: #6ca12b;"></i>
-                        </div>
-                        <div class="feature-text">
-                            <h6 class="">Payment Only Online</h6>
-                            <p class="mb-0">We prepared special discounts on grocery products.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class=" col-lg-3 col-md-6 col-sm-12">
-                    <div class="feature-box">
-                        <div class="feature-icon">
-                            <i class="fa-solid fa-cubes" style="color: #6ca12b;"></i>
-                        </div>
-                        <div class="feature-text">
-                            <h6 class="">Everyday New Stocks</h6>
-                            <p class="mb-0">We prepared special discounts on grocery products.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class=" col-lg-3 col-md-6 col-sm-12">
-                    <div class="feature-box">
-                        <div class="feature-icon">
-                            <i class="fa-solid fa-gem" style="color: #6ca12b;"></i>
-                        </div>
-                        <div class="feature-text">
-                            <h6 class="">Best Quality Assurance</h6>
-                            <p class="mb-0">We prepared special discounts on grocery products.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="feature-box">
-                        <div class="feature-icon">
-                            <i class="fa-solid fa-truck" style="color: #6ca12b;"></i>
-                        </div>
-                        <div class="feature-text">
-                            <h6 class="">Delivery Within 30 Mins</h6>
-                            <p class="mb-0">We prepared special discounts on grocery products.</p>
-                        </div>
-                    </div>
-                </div>
+    <div class="container-fluid features-section" style="margin-top: 5%">
+      <div class="container">
+        <div class="row text-white text-center g-4">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="feature-box">
+              <div class="feature-icon">
+                <i
+                  class="fa-solid fa-money-bill-transfer"
+                  style="color: #6ca12b"
+                ></i>
+              </div>
+              <div class="feature-text">
+                <h6 class="">Payment Only Online</h6>
+                <p class="mb-0">
+                  We prepared special discounts on grocery products.
+                </p>
+              </div>
             </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="feature-box">
+              <div class="feature-icon">
+                <i class="fa-solid fa-cubes" style="color: #6ca12b"></i>
+              </div>
+              <div class="feature-text">
+                <h6 class="">Everyday New Stocks</h6>
+                <p class="mb-0">
+                  We prepared special discounts on grocery products.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="feature-box">
+              <div class="feature-icon">
+                <i class="fa-solid fa-gem" style="color: #6ca12b"></i>
+              </div>
+              <div class="feature-text">
+                <h6 class="">Best Quality Assurance</h6>
+                <p class="mb-0">
+                  We prepared special discounts on grocery products.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="feature-box">
+              <div class="feature-icon">
+                <i class="fa-solid fa-truck" style="color: #6ca12b"></i>
+              </div>
+              <div class="feature-text">
+                <h6 class="">Delivery Within 30 Mins</h6>
+                <p class="mb-0">
+                  We prepared special discounts on grocery products.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 
-    <div class="container" style="margin-top: 5%;">
-        <div class="promo-banner">
-            <div class="promo-text">
-                <span>Weekend Discount</span>
-                <h5>Healthy vegetable that you deserve to eat fresh</h5>
-                <p>We have prepared special discounts for you on grocery products. <br> Don't miss these opportunities...</p>
-                <button type="button" class="btn" style="background-color: #629D23; color: white;">Shop Now <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i></button>
-            </div>
-            <div class="promo-image">
-                <img src="images/21.png" alt="Grocery Products" class="img-fluid">
-            </div>
+    <div class="container" style="margin-top: 5%">
+      <div class="promo-banner">
+        <div class="promo-text">
+          <span>Weekend Discount</span>
+          <h5>Healthy vegetable that you deserve to eat fresh</h5>
+          <p>
+            We have prepared special discounts for you on grocery products.
+            <br />
+            Don't miss these opportunities...
+          </p>
+          <button
+            type="button"
+            class="btn"
+            style="background-color: #629d23; color: white"
+          >
+            Shop Now
+            <i class="fa-solid fa-arrow-right" style="color: #ffffff"></i>
+          </button>
         </div>
+        <div class="promo-image">
+          <img src="images/21.png" alt="Grocery Products" class="img-fluid" />
+        </div>
+      </div>
     </div>
 
     <div class="container py-5">
-        <h2 class="mb-4 ">Latest Blog Post Insights</h2>
-        <div class="row g-4">
-            <div class="col-md-4">
-                <div class="card blog-card">
-                    <img src="images/blog2.jpg" class="blog-img" alt="Blog Image">
-                    <div class="blog-content">
-                        <small class="text-muted">  15 Sep, 2023 |  Modern Fashion</small>
-                        <h5 class="mt-2 ">Fashion Fixation: Fueling Your Passion for All Things Stylish</h5>
-                        <a href="#" class="text-success "> <i class="fa-solid fa-plus"></i>Read Details</a>
-                    </div>
-                </div>
+      <h2 class="mb-4">Latest Blog Post Insights</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card blog-card">
+            <img src="images/blog2.jpg" class="blog-img" alt="Blog Image" />
+            <div class="blog-content">
+              <small class="text-muted"> 15 Sep, 2023 | Modern Fashion</small>
+              <h5 class="mt-2">
+                Fashion Fixation: Fueling Your Passion for All Things Stylish
+              </h5>
+              <a href="#" class="text-success">
+                <i class="fa-solid fa-plus"></i>Read Details</a
+              >
             </div>
-            <div class="col-md-4">
-                <div class="card blog-card">
-                    <img src="images/blog1.jpg" class="blog-img" alt="Blog Image">
-                    <div class="blog-content">
-                        <small class="text-muted">  15 Sep, 2023 |   Modern Fashion</small>
-                        <h5 class="mt-2 ">Fashion Fixation: Fueling Your Passion for All Things Stylish</h5>
-                        <a href="#" class="text-success "> <i class="fa-solid fa-plus"></i>Read Details</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card blog-card">
-                    <img src="images/blog3.jpg" class="blog-img" alt="Blog Image">
-                    <div class="blog-content">
-                        <small class="text-muted">  15 Sep, 2023 |   Modern Fashion</small>
-                        <h5 class="mt-2 ">Fashion Fixation: Fueling Your Passion for All Things Stylish</h5>
-                        <a href="#" class="text-success "> <i class="fa-solid fa-plus"></i>Read Details</a>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="col-md-4">
+          <div class="card blog-card">
+            <img src="images/blog1.jpg" class="blog-img" alt="Blog Image" />
+            <div class="blog-content">
+              <small class="text-muted"> 15 Sep, 2023 | Modern Fashion</small>
+              <h5 class="mt-2">
+                Fashion Fixation: Fueling Your Passion for All Things Stylish
+              </h5>
+              <a href="#" class="text-success">
+                <i class="fa-solid fa-plus"></i>Read Details</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card blog-card">
+            <img src="images/blog3.jpg" class="blog-img" alt="Blog Image" />
+            <div class="blog-content">
+              <small class="text-muted"> 15 Sep, 2023 | Modern Fashion</small>
+              <h5 class="mt-2">
+                Fashion Fixation: Fueling Your Passion for All Things Stylish
+              </h5>
+              <a href="#" class="text-success">
+                <i class="fa-solid fa-plus"></i>Read Details</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                     <img src="images/logo-01.svg"class="img-fluid" style="margin: 5%;">
-                    <p>What’s inside: New Arrivals, Exclusive Sales, News & More</p>
-                    <div class="input-group">
-                        <input type="email" class="form-control" placeholder="Email Address">
-                        <button class="btn btn-success">&rarr;</button>
-                    </div>
-                    <div class="social-icons mt-3">
-                        <a href="#"><i class="bi bi-facebook"></i></a>
-                        <a href="#"><i class="bi bi-twitter"></i></a>
-                        <a href="#"><i class="bi bi-linkedin"></i></a>
-                        <a href="#"><i class="bi bi-youtube"></i></a>
-                        <a href="#"><i class="bi bi-instagram"></i></a>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <h6 class="">Our Stores</h6>
-                    <a href="#">Delivery Information</a><br>
-                    <a href="#">Privacy Policy</a><br>
-                    <a href="#">Terms & Conditions</a><br>
-                    <a href="#">Support Center</a><br>
-                    <a href="#">Careers</a>
-                </div>
-                <div class="col-md-3 shopcatagery">
-                    <h6 class="">Shop Categories</h6>
-                    <a href="#">Contact Us</a><br>
-                    <a href="#">Information</a><br>
-                    <a href="#">About Us</a><br>
-                    <a href="#">Careers</a><br>
-                    <a href="#">Nest Stories</a>
-                </div>
-                <div class="col-md-3 contact-info">
-                    <h6 class="">Need Help? / Contact Us</h6>
-                    <p><i class="bi bi-geo-alt"></i> 258 Daniel Street, Berlin, Germany</p>
-                    <p><i class="bi bi-telephone"></i> Call us between 8:00 AM - 12PM<br> <strong style="color: #629D23;">+25896 3158 3228</strong></p>
-                    <p><i class="bi bi-chat"></i> Live Chat<br> Chat With an Expert</p>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <img
+              src="images/logo-01.svg"
+              class="img-fluid"
+              style="margin: 5%"
+            />
+            <p>What’s inside: New Arrivals, Exclusive Sales, News & More</p>
+            <div class="input-group">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Email Address"
+              />
+              <button class="btn btn-success">&rarr;</button>
             </div>
+            <div class="social-icons mt-3">
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-twitter"></i></a>
+              <a href="#"><i class="bi bi-linkedin"></i></a>
+              <a href="#"><i class="bi bi-youtube"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <h6 class="">Our Stores</h6>
+            <a href="#">Delivery Information</a><br />
+            <a href="#">Privacy Policy</a><br />
+            <a href="#">Terms & Conditions</a><br />
+            <a href="#">Support Center</a><br />
+            <a href="#">Careers</a>
+          </div>
+          <div class="col-md-3 shopcatagery">
+            <h6 class="">Shop Categories</h6>
+            <a href="#">Contact Us</a><br />
+            <a href="#">Information</a><br />
+            <a href="#">About Us</a><br />
+            <a href="#">Careers</a><br />
+            <a href="#">Nest Stories</a>
+          </div>
+          <div class="col-md-3 contact-info">
+            <h6 class="">Need Help? / Contact Us</h6>
+            <p>
+              <i class="bi bi-geo-alt"></i> 258 Daniel Street, Berlin, Germany
+            </p>
+            <p>
+              <i class="bi bi-telephone"></i> Call us between 8:00 AM - 12PM<br />
+              <strong style="color: #629d23">+25896 3158 3228</strong>
+            </p>
+            <p>
+              <i class="bi bi-chat"></i> Live Chat<br />
+              Chat With an Expert
+            </p>
+          </div>
         </div>
+      </div>
     </footer>
-
-</body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
 </html>
